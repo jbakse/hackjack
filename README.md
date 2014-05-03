@@ -10,6 +10,8 @@ Hackjack is a two player hacking-themed card game played with a standard 52-card
 
 ## How to Play
 
+### Game Sequence
+
 1. Divide the deck into red and black cards. One player takes all the red cards, and the other takes the black.
 2. Both players strategically set up their *Servers* and *Attack Decks*.
 3. Decide which player takes a turn first with a *Ping Test*.
