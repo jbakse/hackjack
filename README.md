@@ -84,4 +84,5 @@ Discarded cards don't go back into your hand until you are completely out of car
 
 Must play/burn a card to reveal final data or honey pot cards
 
+Use numbered/attack cards as data cards, allows ace to be another type of special card
 
