@@ -77,3 +77,11 @@ Exposed
 Revealed
 
 
+
+### Things to Play Test/Variations
+
+Discarded cards don't go back into your hand until you are completely out of cards
+
+Must play/burn a card to reveal final data or honey pot cards
+
+
