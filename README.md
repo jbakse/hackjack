@@ -34,10 +34,12 @@ Data:          F F F F F
   >Architecture Program: Swap 2 cards in play
 
 - Queens
-  >Query Program: Reveals cards
+  >names: Query
+Reveals cards
 
 - Kings 
-  >Archive Program: Swap a card from attack deck with a position on the server
+  >name options: Archive, Backup, Restore
+Swap a card from attack deck with a position on the server
 
 ### Attack Deck
 
