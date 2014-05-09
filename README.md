@@ -34,13 +34,13 @@ Data:          F F F F F
 >Swap 2 cards in play. names: Architect, Glitch, Loop, Recompile
 
 - Queens
->Reveals cards. names: Query, 
+>Reveals cards. names: Query, Crack 
 
 - Kings 
 >Swap a card from attack deck with a position on the server. names: Patch, Archive, Backup, Restore, jury rig, Reboot 
 
 - Ace 
->names: AI, ICE, Backdoor
+>names: AI, ICE, Backdoor, Easter Egg
 
 ### Attack Deck
 
