@@ -28,16 +28,18 @@ Encryption:    # # # # #
 Data:          F F F F F
 ```
 
-### Honey Pots
+### Honey Pots / Programs
 
-- Jacks
-- Queens
-- Kings
+- Jacks: 
+--
+- Queens: Reveals cards
+--
+- Kings: Swaps cards
+--
 
 ### Attack Deck
 
 When you have fully set up your server you will have 10 cards left over. These cards form your **attack deck**. Cards from your **attack deck** are played during your **Turn** to penetrate your opponents defenses and defend your own server.
-
 
 ### Ping Test
 
@@ -52,7 +54,7 @@ Play an attack card on an exposed ecryption card.
 
 Upload an attack card to the ecryption layer.
 
-Play a face card.
+Play a face card/program.
 
 - Jacks
 - Kings
@@ -87,4 +89,7 @@ Must play/burn a card to reveal final data or honey pot cards
 Use numbered/attack cards as data cards, allows ace to be another type of special card
 
 Mixing Honey pots into firewall and encryption layers
+
+Using the suits of the cards somehow, perhaps the suits match up. (on the firewall only a diamond can beat a club; only a heart can beat a spade?)
+
 
