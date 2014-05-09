@@ -38,8 +38,8 @@ Data:          F F F F F
 >Reveals cards
 
 - Kings 
->name options: Archive, Backup, Restore
->Swap a card from attack deck with a position on the server
+>name options: Archive, Backup, Restore<
+>Swap a card from attack deck with a position on the server<
 
 ### Attack Deck
 
