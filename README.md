@@ -28,16 +28,16 @@ Encryption:    # # # # #
 Data:          F F F F F
 ```
 
-### Honey Pots / Programs
+### Programs + Honey Pots
 
-- Jacks: 
+- Jacks
   >Swap 2 cards in play
 
-- Queens: 
+- Queens 
   >Reveals cards
 
-- Kings: 
-  >Swap a cards from hand with 1 in play
+- Kings 
+  >Swap a card from attack deck with a position on the server
 
 ### Attack Deck
 
