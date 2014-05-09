@@ -31,13 +31,13 @@ Data:          F F F F F
 ### Programs + Honey Pots
 
 - Jacks
-  >Swap 2 cards in play
+  >Architecture Program: Swap 2 cards in play
 
-- Queens 
-  >Reveals cards
+- Queens
+  >Query Program: Reveals cards
 
 - Kings 
-  >Swap a card from attack deck with a position on the server
+  >Archive Program: Swap a card from attack deck with a position on the server
 
 ### Attack Deck
 
@@ -93,5 +93,7 @@ Use numbered/attack cards as data cards, allows ace to be another type of specia
 Mixing Honey pots into firewall and encryption layers
 
 Using the suits of the cards somehow, perhaps the suits match up. (on the firewall only a diamond can beat a club; only a heart can beat a spade?)
+
+Garbage File!
 
 
