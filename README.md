@@ -31,11 +31,13 @@ Data:          F F F F F
 ### Honey Pots / Programs
 
 - Jacks: 
---
-- Queens: Reveals cards
---
-- Kings: Swaps cards
---
+  Swap 2 cards in play
+
+- Queens: 
+  Reveals cards
+
+- Kings: 
+  Swap a cards from hand with 1 in play
 
 ### Attack Deck
 
