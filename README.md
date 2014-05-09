@@ -28,18 +28,19 @@ Encryption:    # # # # #
 Data:          F F F F F
 ```
 
-### Programs + Honey Pots
+### Programs + Honey Pots + DAEMONs?
 
 - Jacks
->Architecture Program: Swap 2 cards in play
+>Swap 2 cards in play. names: Architect, Glitch, Loop, Recompile
 
 - Queens
->names: Query
->Reveals cards
+>Reveals cards. names: Query, 
 
 - Kings 
->name options: Archive, Backup, Restore<
->Swap a card from attack deck with a position on the server<
+>Swap a card from attack deck with a position on the server. names: Patch, Archive, Backup, Restore, jury rig, Reboot 
+
+- Ace 
+>names: AI, ICE, Backdoor
 
 ### Attack Deck
 
@@ -59,10 +60,6 @@ Play an attack card on an exposed ecryption card.
 Upload an attack card to the ecryption layer.
 
 Play a face card/program.
-
-- Jacks
-- Kings
-- Queens
 
 ### Ending a turn
 
