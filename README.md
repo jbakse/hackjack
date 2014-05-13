@@ -95,4 +95,15 @@ Using the suits of the cards somehow, perhaps the suits match up. (on the firewa
 
 Garbage File!
 
+## Kickstarter Reward and Stretch Goal ideas
+
+break out into seperate file
+rule cards
+custom decks with rule cards foil printing
+playing mats
+soundtrack
+iphone app
+
+
+
 
