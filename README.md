@@ -31,16 +31,16 @@ Data:          F F F F F
 ### Programs + Honey Pots + DAEMONs?
 
 - Jacks
->Swap 2 cards in play. names: Architect, Glitch, Loop, Recompile
+  - Swap 2 cards in play. names: Architect, Glitch, Loop, Recompile
 
 - Queens
->Reveals cards. names: Query, Crack 
+  - Reveals cards. names: Query, Crack 
 
 - Kings 
->Swap a card from attack deck with a position on the server. names: Patch, Archive, Backup, Restore, jury rig, Reboot 
+  - Swap a card from attack deck with a position on the server. names: Patch, Archive, Backup, Restore, jury rig, Reboot 
 
 - Ace 
->names: AI, ICE, Backdoor, Easter Egg
+  - names: AI, ICE, Backdoor, Easter Egg
 
 ### Attack Deck
 
