@@ -98,10 +98,15 @@ Garbage File!
 ## Kickstarter Reward and Stretch Goal ideas
 
 break out into seperate file
+
 rule cards
+
 custom decks with rule cards foil printing
+
 playing mats
+
 soundtrack
+
 iphone app
 
 
