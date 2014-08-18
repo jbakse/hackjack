@@ -109,7 +109,12 @@ character cards give special bonuses to players
   -drone:
   -botnet:
   -social network: can ask friends for help
-  -money sex god love:
+  -god love secret sex:
+  -praetorian: gets to control the light switch
+  -unix system:
+  -gambler/kenny rogers/double down: can put money down on table and make bets
+  -N00B
+  -LEET/1337
 
 break out into seperate file
 
