@@ -103,18 +103,18 @@ Garbage File!
 
 ## Kickstarter Reward and Stretch Goal ideas
 character cards give special bonuses to players
-  -telecommuter: doesn't have to wear pants for duration of game
-  -hack the planet: people have to call you zero cool, crash override
-  -glasshole:
-  -drone:
-  -botnet:
-  -social network: can ask friends for help
-  -god love secret sex:
-  -praetorian: gets to control the light switch
-  -unix system:
-  -gambler/kenny rogers/double down: can put money down on table and make bets
-  -N00B
-  -LEET/1337
+  - telecommuter: doesn't have to wear pants for duration of game
+  - hack the planet: people have to call you zero cool, crash override
+  - glasshole:
+  - drone:
+  - botnet:
+  - social network: can ask friends for help
+  - god love secret sex:
+  - praetorian: gets to control the light switch
+  - unix system:
+  - gambler/kenny rogers/double down: can put money down on table and make bets
+  - N00B
+  - LEET/1337
 
 break out into seperate file
 
