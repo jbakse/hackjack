@@ -159,5 +159,30 @@ soundtrack
 iphone app
 
 
+### Attacking the Firewall
+
+Play a numbered card onto a firewall card. The firewall card is revealed. If the number on the attacking card is higher, both cards are removed to their respective player's discard piles, and the attacker may make another play. If the number on the attacking card is lower, the attackers turn is endened, the attacking card stays on server, and its value will be added to future attacks on that card.  
+
+### Attacking the Encryption layer
+
+Play a card from your Attack Deck to the upload area
+Reveal on exposed encryption card (if any)
+If any combination of ecryption and uploaded cards totals 21, the attacker may remove those cards, and make another play.
+If no combinations that total 21 are available, the attacker's turn ends
+
+### Attacking the Storage layer
+
+The Attacker burns a card, placing it face up on the discard pile.
+The attacker can then choose one exposed card in the storage layer to reveal.
+If the revealed card is data, it is immediately captured by the attacker and removed from the server. The attacker can then make another play.
+If the revealed card is a program, it is immediately run, and the attackers turn is over.
+
+
+
+
+Railroad diagram of play or turn
+
+
+
 
 
