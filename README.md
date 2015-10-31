@@ -105,9 +105,12 @@ The moment that a player downloads both their opponent's Aces, they win.
 
 ### Terms
 
-Exposed
+#### Exposed
+An exposed card is a card that is no longer protected by the cards in front of it. 
 
-Revealed
+###  Revealed
+
+A revealed card is flipped face up, and left in position. When a program card is revealed, it is immediately run. If the a program card is revealed by the Query card, the program is not run.
 
 
 ### Misc Rules (format into above)
