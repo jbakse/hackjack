@@ -2,6 +2,58 @@
 
 Grab you deck and get hacking.
 
+# Outline
+
+- General Description including objective
+  - Two Player
+  - Standard Deck
+  - Players design servers
+  - take turns trying to exploit server to retreive data cards
+  - first to capture both of oponents data cards wins
+
+- Game Sequence
+- Glossary / Card States / Playfield Diagram
+
+- Server Setup
+- Ping Test
+- Turns
+  - Moves
+    - Attack Firewall
+    - Attack Encryption
+    - Attack Storage
+    - Play Program Card
+- Program Cards
+  - Jacks
+  - Queens
+  - Kings
+  - Joker?
+
+
+
+Program cards: J,Q,K
+Data cards: ace
+Code cards: 2-10
+Protected
+Exposed
+Revealed (unlocked)
+Concealed (locked)
+Held
+Uploaded
+Honeypots
+
+
+Attack Deck
+Discard Pile
+Attacker
+Defender
+
+Access?
+
+
+
+
+
+
 
 ## What it is
 
@@ -148,7 +200,8 @@ character cards give special bonuses to players
   - gambler/kenny rogers/double down: can put money down on table and make bets
   - N00B
   - LEET/1337
-
+  - one more thing....
+  - 
 break out into seperate file
 
 rule cards
