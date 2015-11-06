@@ -4,24 +4,85 @@ Grab you deck and get hacking.
 
 # Outline
 
-- General Description including objective
+- General description including objective
   - Two Player
   - Standard Deck
   - Players design servers
-  - take turns trying to exploit server to retreive data cards
-  - first to capture both of oponents data cards wins
+  - Players take turns trying to exploit server to retrieve data cards
+  - First player to capture both of opponents data cards wins
 
-- Game Sequence
-- Glossary / Card States / Playfield Diagram
+- Glossary
+  - Card Types
+    - Data Cards: Aces
+    - Program Cards: Jacks, Queens, Kings
+    - Code Cards: Numbered Cards
+  - Game Field [Diagram]
+    - Server
+      - Firewall Layer
+      - Encryption Layer
+      - Storage Layer
+      - Upload Area
+    - Attack Deck
+    - Discard Pile
+  - Card States
+    - Protected / Exposed
+    - Revealed / Concealed | Face up / Face Down
+    - Held
+    - Uploaded
+  - Honeypot
+  - Attacker
+  - Defender
 
 - Server Setup
+  [Diagram]
+  - All cards are placed face down.
+  - Firewall Layer: Any 6 Code Cards
+  - Encryption Layer: Any 5 Code Cards
+  - Storage Layer: 2 Data Cards and Any 3 Program Cards
+  - Server setup is part of the strategy.
+  - Remaining cards form your Attack Deck
+  - Honey Pot: Activates when revealed, effects happen, ends attacker turn
+
 - Ping Test
+  - Each player chooses one card at random from opponents Attack Deck.
+  - The player that *owns* the lower card goes first.
+  - In the event of a tie, redo ping test.
+
 - Turns
+  - Players alternate taking turns.
+  
+  - Each turn consists of one or more moves.
+  
+  - If the Attacker successfully removes a card from the Defender's server during their move, and has at least one Attack Card left, they **must** make another move. Otherwise, their turn is over.
+  
   - Moves
     - Attack Firewall
+      - Place a Code Card from their attack deck in front of a Firewall card.
+      - If the Attack Card value is higher than the Firewall card value, the Firewall Card is removed from the server.
+      - If the Attack Card value is less than or equal to the Firewall Card value, the Attack Card is held. The held card stays with the Firewall Card and its value is added to future attacks on this card.
+      - When a Firewall Card is removed from the sever the Firewall card, the Attack Card, and any held cards go to their player's discard piles.
+
     - Attack Encryption
+      - If at least one Encryption Card is Exposed, the Attacker may attack the Encryption Layer.
+      - The Attacker begins by placing one of their Code Cards in the Upload Area of the Defender's server.
+      - The attacker may then choose an Exposed Encryption Card to reveal.
+      - The attacker may then remove any one combination of Uploaded and/or Exposed Encryption Cards that has a total value of exactly 21.
+      - Removed cards go to their player's discard piles.
+
     - Attack Storage
+      - If at least on Storage Card is Exposed, the Attacker may attack the Storage Layer.
+      - The Attacker begins by discarding any one card from their Attack Deck.
+      - The Attacker then selects an Exposed Storage Card to reveal.
+      - The chosen card is turned face up.
+      - If the chosen card is a Data Card, it is removed from the server an given to the attacker.
+      - If the chosen card is a Honeypot, its program takes immediate effect (see below).
+
     - Play Program Card
+      - The player begins by playing a Program Card from their Attack Deck.
+      - The Program Card's effects take effect (see below). 
+      - The played Program Card is then discarded.
+
+  
 - Program Cards
   - Jacks
   - Queens
@@ -30,24 +91,6 @@ Grab you deck and get hacking.
 
 
 
-Program cards: J,Q,K
-Data cards: ace
-Code cards: 2-10
-Protected
-Exposed
-Revealed (unlocked)
-Concealed (locked)
-Held
-Uploaded
-Honeypots
-
-
-Attack Deck
-Discard Pile
-Attacker
-Defender
-
-Access?
 
 
 
@@ -239,15 +282,17 @@ If the revealed card is a program, it is immediately run, and the attackers turn
 Railroad diagram of play or turn
 
 
+FAQ:
+Can king remove an unexposed card? No.
+Can the jack move unexposed cards? Yes. 
 
-can king and jack affect unexposed cards?
-is a storage card exposed if the ecnrypiont card is removed, but the fire wall cards are both in place
+Is a storage card exposed if the encryption card is removed, but the fire wall cards are both in place? No
 
-meta rules no rules should vilolate these:
-nothing should allow an attacker to remove a card from a server that was not exposed
-nothing should allow an attacker to reveal a card that is not exposed
-
-the attacker must play a card before any card can be removed from the server
+##META RULES
+meta rules no rules should violate these:
+- the attacker must play a card before any card can be removed from the server
+- nothing should allow an attacker to remove a card that is not exposed
+- nothing should allow an attacker to reveal a card that is not exposed
 
 
 
