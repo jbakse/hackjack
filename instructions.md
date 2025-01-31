@@ -104,7 +104,7 @@ THEN the `attacker` MAY run a program.
 1. The cards attack program effects are resolved.
 1. The `program card` is `discarded`.
 
-### Defense Program Effects
+# Defense Program Effects
 
 **Jacks** Hot Swap
 
@@ -120,7 +120,7 @@ THEN the `attacker` MAY run a program.
 2. IF the position contains a card THEN the `defender` MUST `discard` the card OR add it to their `attack deck`.
 3. The `defender` MAY place any card from their `attack deck` or their `discard pile` face down in the selected position.
 
-### Attack Program Effects
+# Attack Program Effects
 
 **Jacks** Hot Swap
 
