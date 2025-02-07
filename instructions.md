@@ -4,7 +4,7 @@ Grab your deck and start hacking.
 
 # Overview
 
-Hackjack is a two player hacking-themed card game played with a standard 52-card poker deck.
+Hackjack is a two-player hacking-themed card game played with a standard 52-card poker deck.
 
 1. Divide the deck.
 2. Set up your `servers` and `attack decks`.
@@ -27,6 +27,8 @@ Both players plan and build their `server` and `attack deck`.
 
 The remaining 10 cards form your `attack deck`. This deck will contain `program cards` and `data cards` but no `target cards`
 
+> Planning the layout of your server is a strategic part of the game. Do you use your highest data cards to create a stronger defensive firewall or save them for your attack deck? Where do you hide your target cards? For your first games just use any arrangement that follows the rules.
+
 ```
 Server Layout
 
@@ -45,9 +47,9 @@ Server Layout
 
 # Ping Test
 
-1. Each player chooses and reveals a random card from their opponents `attack deck`.
+1. Each player chooses and reveals a random card from their opponent's `attack deck`.
 2. The player that _owns_ the lower card will go first. In the event of a tie, repeat the ping test.
-3. Return the cards to the `attack decks`.
+3. Return the cards to their `attack decks`.
 
 # Turns
 
@@ -55,9 +57,13 @@ The player who won the ping test takes the first turn. On a player's turn they a
 
 If the `attacker` does not have any cards in their `attack deck` at the beginning of their turn, they add all the cards in their discard pile to their `attack deck`.
 
-Each `turn` consists of one or more `moves`. The attacker MUST make a move on their turn.
+Each `turn` consists of one or more `actions`.
 
-IF the attacker removes a card from the defender's server during their move AND they have at least one card in their `attack deck` THEN they MUST make another move. Otherwise, their turn is over. An attacker might make several moves in a single turn.
+IF the attacker removes a card from the defender's server during their `action` AND they have at least one `attack card` THEN they MUST perform another `action`
+
+IF the attacker does not remove a card OR runs out of `attack cards` THEN their turn ends.
+
+An `attacker` might perform several `actions` in a single turn.
 
 # Moves
 
@@ -149,9 +155,28 @@ The first player to download both of their opponent's `target cards` wins.
 
 # Glossary
 
+- `attacker` = the player whose turn it is
+- `defender` = the player whose turn it is not
 - `target card` = A
 - `program cards` = J, Q, K
 - `data cards` = 2, 3, 4, 5, 6, 7, 8, 9, 10
 - `remove` = place in the respective player's `discard pile`
 - `revealed` = a card on the server that is face up
-- `exposed` = a storage card is exposed if the encryption layer position below it is empty, an encryption card is exposed if either firewall layer position below it is empty, all firewall cards are exposed
+- `exposed` = A storage card is exposed if the encryption layer position in front of it is empty. An encryption card is exposed if either firewall layer position in front of it is empty. All firewall cards are exposed.
+- `attack deck` = the cards the attacker uses to attack the defender's server
+- `attack card` = a card from the attacker's attack deck
+
+```
+Exposed Card Examples
+🃟 = exposed
+. = empty
+
+ 🂠 🂠 🂠 🃟 🂠             ← storage layer
+ 🂠 🃟 🃟 . 🃟   [upload]  ← encryption layer
+🂠 🂠 . 🂠 🂠 .            ← firewall layer
+```
+
+# FAQ
+
+Q: Why aren't there any questions in the FAQ?  
+A: We haven't received any questions yet.
