@@ -180,3 +180,9 @@ Exposed Card Examples
 
 Q: Why aren't there any questions in the FAQ?  
 A: We haven't received any questions yet.
+
+Q: Why is this game so confusing?  
+A: Well, Grayden if you're finding the game confusing maybe try reading over the instructions again or maybe start with the tutorial game.
+
+# Tutorial Game
+- coming soon
